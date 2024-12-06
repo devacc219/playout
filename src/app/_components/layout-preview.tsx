@@ -1,15 +1,14 @@
 import * as React from "react"
-import { LayoutGrid, AlignHorizontalJustifyCenter, AlignVerticalJustifyCenter, Layout, Grid } from 'lucide-react'
 import { LayoutControls } from "@/types/layout"
 
-const presetLayouts = [
-  { name: "Fill Space", icon: <LayoutGrid className="h-4 w-4" /> },
-  { name: "Stretch Middle", icon: <AlignHorizontalJustifyCenter className="h-4 w-4" /> },
-  { name: "HTML5", icon: <Layout className="h-4 w-4" /> },
-  { name: "Alternating Grid", icon: <Grid className="h-4 w-4" /> },
-  { name: "Masonry Column", icon: <AlignVerticalJustifyCenter className="h-4 w-4" /> },
-  { name: "Masonry Row", icon: <AlignHorizontalJustifyCenter className="h-4 w-4" /> },
-]
+// const presetLayouts = [
+//   { name: "Fill Space", icon: <LayoutGrid className="h-4 w-4" /> },
+//   { name: "Stretch Middle", icon: <AlignHorizontalJustifyCenter className="h-4 w-4" /> },
+//   { name: "HTML5", icon: <Layout className="h-4 w-4" /> },
+//   { name: "Alternating Grid", icon: <Grid className="h-4 w-4" /> },
+//   { name: "Masonry Column", icon: <AlignVerticalJustifyCenter className="h-4 w-4" /> },
+//   { name: "Masonry Row", icon: <AlignHorizontalJustifyCenter className="h-4 w-4" /> },
+// ]
 
 interface LayoutPreviewProps {
   layout: LayoutControls
