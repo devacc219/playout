@@ -100,7 +100,7 @@ export function AppSideBar() {
           </div>
         </SidebarBody>
       </Sidebar>
-      <Dashboard />
+      {/* <Dashboard /> */}
     </div>
   );
 }
