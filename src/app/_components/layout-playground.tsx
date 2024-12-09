@@ -61,7 +61,7 @@ export function AdvancedLayoutPlayground() {
   return (
     <div className="space-y-6">
       <div className="flex justify-between items-center">
-        {/* <h2 className="text-2xl font-bold">Advanced Layout Playground</h2> */}
+        <h2 className="text-2xl font-bold">{layout.display.charAt(0).toUpperCase() + layout.display.slice(1)}</h2>
         <div></div>
         <div className="flex gap-2">
           <Button
